@@ -54,9 +54,9 @@ to further support this hypothesis.
 
 Suppose we were interested in looking in more closely at the province 
 with the highest spread (in terms of standard deviation) of horse populations. 
-We present the standard deviations in @tbl-horses-sd.
+We present the standard deviations in **Table @tbl-horses-sd**.
 
-Table 1. Standard deviation of historical (1906-1972) horse populations for each Canadian province.
+Table: Standard deviation of historical (1906-1972) horse populations for each Canadian province.
 
 ```{r}
 #| echo: false  
@@ -77,9 +77,9 @@ Additionally, note that in Table 1 we consider the sample standard deviation of 
 
 ![](../results/horse_pop_plot_largest_sd.png){#fig-largest-sd width=70%}
 
-@fig-largest-sd: Horse populations for the province of 'r largest_sd', which had the largest spread of values in terms of standard deviation.
+@fig-largest-sd: Horse populations for the province of `r largest_sd`, which had the largest spread of values in terms of standard deviation.
 
 
-In @fig-largest-sd, we zoom in and look at the province of 'r largest_sd', which had the largest spread of values in terms of standard deviation.
+In @fig-largest-sd, we zoom in and look at the province of `r largest_sd`, which had the largest spread of values in terms of standard deviation.
 
 # References
